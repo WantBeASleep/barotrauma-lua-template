@@ -1,4 +1,4 @@
-# Barotrauma Lua Mod Layout
+# Barotrauma Lua Mod Template
 
 **Язык:** [English](README.md) | Русский
 
@@ -68,7 +68,7 @@ Lua/
       └─ ui.lua
 ```
 
-Например, `Lua/yourname/my_mod/logic.lua`. Такой layout снижает риск конфликтов с другими модами и проще переносится между проектами.
+Например, `Lua/yourname/my_mod/logic.lua`. Такой template снижает риск конфликтов с другими модами и проще переносится между проектами.
 
 Документация:
 

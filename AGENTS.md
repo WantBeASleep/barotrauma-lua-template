@@ -9,7 +9,7 @@ TODO PROJECT: Replace this section for each real mod before active development.
 - Short description: TODO PROJECT: describe what the mod does in 1-3 sentences
 - Main gameplay/domain area: TODO PROJECT: examples: medical items, submarine systems, UI, events, creatures, balance
 
-## Project Layout
+## Project Structure
 
 The project is structured as a Barotrauma Lua mod workspace.
 
@@ -26,9 +26,9 @@ The project is structured as a Barotrauma Lua mod workspace.
 
 TODO PROJECT: If the mod adds folders, generated files, build outputs, or a custom namespace under `Lua/`, document them here.
 
-## Lua Layout
+## Lua Structure
 
-Keep Lua runtime code under `Lua/`. For project code, prefer a namespace layout:
+Keep Lua runtime code under `Lua/`. For project code, prefer a namespace structure:
 
 ```text
 Lua/

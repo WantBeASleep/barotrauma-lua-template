@@ -1,4 +1,4 @@
-# Barotrauma Lua Mod Layout
+# Barotrauma Lua Mod Template
 
 **Language:** English | [Русский](README.ru.md)
 
@@ -68,7 +68,7 @@ Lua/
       └─ ui.lua
 ```
 
-For example: `Lua/yourname/my_mod/logic.lua`. This layout reduces conflicts with other mods and is easier to move between projects.
+For example: `Lua/yourname/my_mod/logic.lua`. This template reduces conflicts with other mods and is easier to move between projects.
 
 Documentation:
 
@@ -155,7 +155,7 @@ Rebuilding requires `git` and `cargo` from the Rust toolchain. The included `bin
 
 ## Agent Skills
 
-The `.codex/skills` directory contains local instructions for AI agents. They are not limited to Codex: rename or move the directory if your tool expects a different layout.
+The `.codex/skills` directory contains local instructions for AI agents. They are not limited to Codex: rename or move the directory if your tool expects a different directory structure.
 
 Contents:
 
